@@ -1,0 +1,39 @@
+# Core dependencies
+numpy==2.2.6
+pandas==2.3.2
+scipy==1.16.2
+scikit-learn==1.7.2
+torch==2.8.0
+
+# LLM clients
+openai==1.109.1
+requests==2.31.0
+
+# vLLM for local inference (GPU required)
+vllm==0.10.2
+
+sentence-transformers==5.1.1
+transformers==4.56.2
+tokenizers==0.22.1
+tf-keras==2.18.0
+
+bertopic==0.17.3
+umap-learn==0.5.9.post2
+hdbscan==0.8.40
+rouge-score==0.1.2
+nltk==3.9.1
+evaluate==0.4.6
+bert-score==0.3.13
+
+# Data processing
+jsonlines>=3.1.0
+tqdm>=4.64.0
+
+# Optional: For advanced evaluation
+sacrebleu>=2.3.0
+bleurt @ git+https://github.com/google-research/bleurt.git
+
+# Development and logging
+pytest>=7.0.0
+black>=22.0.0
+isort>=5.10.0
